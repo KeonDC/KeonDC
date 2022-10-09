@@ -26,13 +26,16 @@
 <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 </head>
-<spinner class="min-h-screen overflow-hidden scroll-m-0 z-50 fixed">
+<!---Preloader--->
+<spinner class="min-h-screen max-h-screen min-w-full max-w-full overflow-hidden scroll-m-0 z-50 fixed">
     <div class="m-auto w-screen min-h-screen overflow-hidden text-white flex flex-col place-content-center bg-gradient-to-b from-black to-slate-800">
         <div class="order-1 flex m-auto h-16 w-16 rounded-full bg-white animate-ping">
         </div>
     </div>
 </spinner>
-<div class="h-screen w-screen flex flex-col place-content-center bg-gradient-to-b from-black to-slate-800">
+
+<!---Content--->
+<div class="h-screen min-h-screen max-h-screen min-w-full max-w-full w-screen flex flex-col place-content-center bg-gradient-to-b from-black to-slate-800">
 <p class="font-light text-2xl text-white m-auto mb-0 opacity-60">
 koendc.com
 </p>
