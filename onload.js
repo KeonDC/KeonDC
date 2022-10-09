@@ -1,3 +1,4 @@
+console.log("Stop looking at the console, there is nothing to see here, go away. - Faye")
 document.onreadystatechange = function() {
     if (document.readyState !== "complete") {
                   document.querySelector(
